@@ -1,6 +1,6 @@
 <?php
 
-        //TEST Mark
+        //TEST Mark ...
 
 	//$RUNNING_FILE = "/tmp/RUNNING"; //Uncomment for local testing with apache
 	$RUNNING_FILE = "RUNNING";
