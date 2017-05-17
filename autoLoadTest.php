@@ -1,5 +1,7 @@
 <?php
 
+        //TEST Mark
+
 	//$RUNNING_FILE = "/tmp/RUNNING"; //Uncomment for local testing with apache
 	$RUNNING_FILE = "RUNNING";
 
@@ -18,6 +20,7 @@
     $application = getenv("VCAP_APPLICATION");
     $application_json = json_decode($application, true);
     $applicationURI = $application_json["application_uris"][0];
+
 
     if (!isset($_GET['action']) || $_GET['action'] == 'status') {
         //Return status of load testing
